@@ -1,0 +1,3502 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-06T07:33:34.182Z",
+        "before": [
+          {
+            "result": {
+              "duration": 555656100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "DELETE method with valid credentials",
+        "description": "",
+        "id": "verify-delete-user-functionality;delete-method-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 917573300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I perform POST with the following data",
+            "match": {
+              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "tester"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107197100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I perform DELETE operation with username \"tester\" and password \"maniac\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 63
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65926500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should receive a successful response and a confirmation message",
+            "match": {
+              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97946900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I perform GET operation to get access with username \"jetche4\" and password \"tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jetche4\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"tester\"",
+                  "offset": 75
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationToGetAccessWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 616900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:35.963Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2159900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "DELETE method with invalid credentials",
+        "description": "",
+        "id": "verify-delete-user-functionality;delete-method-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81422000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I perform DELETE operation with username \"invalid\" and password \"data\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"data\"",
+                  "offset": 64
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236281900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should see the \"message\" \"Bad credentials\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 892500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:36.287Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1569900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "DELETE method with empty credentials",
+        "description": "",
+        "id": "verify-delete-user-functionality;delete-method-with-empty-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96566200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I perform DELETE operation with username \"\" and password \"\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 57
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10097700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I should see the \"message\" \"Bad credentials\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1023400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:36.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1064500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "DELETE method with empty password credentials",
+        "description": "",
+        "id": "verify-delete-user-functionality;delete-method-with-empty-password-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81507500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I perform DELETE operation with username \"invalid\" and password \"\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 64
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7460300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I should see the \"message\" \"Bad credentials\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1198700,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:36.491Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1643500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "DELETE method with invalid username",
+        "description": "",
+        "id": "verify-delete-user-functionality;delete-method-with-invalid-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82388800,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I perform DELETE operation with username \"tester\" and password \"maniac\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 63
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche213"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9091000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I should see the \"message\" \"Username jetche213 does not exist.\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Username jetche213 does not exist.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 881400,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:36.588Z",
+        "before": [
+          {
+            "result": {
+              "duration": 910600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "DELETE method with invalid email",
+        "description": "",
+        "id": "verify-delete-user-functionality;delete-method-with-invalid-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76251900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I perform DELETE operation with username \"tester\" and password \"maniac\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 63
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche213@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path message doesn\u0027t match.\nExpected: is \"Email does not exist\"\n  Actual: Username jetche4 does not exist.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Email does not exist\" in body response(file:src/test/java/features/DELETE_user.feature:83)\r\n",
+              "duration": 17375200,
+              "status": "failed"
+            },
+            "line": 83,
+            "name": "I should see the \"message\" \"Email does not exist\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Email does not exist\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 452600,
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:36.693Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2991700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "DELETE method without optional fields",
+        "description": "",
+        "id": "verify-delete-user-functionality;delete-method-without-optional-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82310500,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I perform POST with the following data",
+            "match": {
+              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "tester"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75950900,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I perform DELETE operation with username \"tester\" and password \"maniac\" with body \"jetche4\" and \"jetche4@wearewaes.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"jetche4\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"jetche4@wearewaes.com\"",
+                  "offset": 96
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithBodyAnd(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3453600,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I should receive a successful response and a confirmation message",
+            "match": {
+              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:36.861Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1679600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 98,
+        "name": "DELETE method with invalid optional fields",
+        "description": "",
+        "id": "verify-delete-user-functionality;delete-method-with-invalid-optional-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79929500,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I perform POST with the following data",
+            "match": {
+              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "tester"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79308700,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "I perform DELETE operation with username \"tester\" and password \"maniac\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 63
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "23123131"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Some Tester"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche4"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "true"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1982-03-11"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche4@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Other Superpower"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1803000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "I should receive a successful response and a confirmation message",
+            "match": {
+              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Delete user functionality",
+    "description": "",
+    "id": "verify-delete-user-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/DELETE_user.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-06T07:33:37.026Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1421300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "GET access method with valid username and password",
+        "description": "",
+        "id": "verify-get-access-operation;get-access-method-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74894200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform GET operation to get access with username \"tester\" and password \"maniac\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 74
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationToGetAccessWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11433400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the \"username\" \"tester\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"tester\"",
+                  "offset": 28
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.118Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1363100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "GET access method with invalid username and password",
+        "description": "",
+        "id": "verify-get-access-operation;get-access-method-with-invalid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73989200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I perform GET operation to get access with username \"invalid\" and password \"data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"data\"",
+                  "offset": 75
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationToGetAccessWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7559400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the \"message\" \"Bad credentials\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 410400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.204Z",
+        "before": [
+          {
+            "result": {
+              "duration": 764900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "GET access method with no auth data",
+        "description": "",
+        "id": "verify-get-access-operation;get-access-method-with-no-auth-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8011000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I perform GET operation on \"/access\" with no auth data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/access\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationOnWithNoAuthData(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7111300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see the \"message\" \"Full authentication is required to access this resource\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Full authentication is required to access this resource\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 373000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.221Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1030400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "GET access method with empty username and password",
+        "description": "",
+        "id": "verify-get-access-operation;get-access-method-with-empty-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79194300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I perform GET operation to get access with username \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 68
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationToGetAccessWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7026000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see the \"message\" \"Bad credentials\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 480800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.311Z",
+        "before": [
+          {
+            "result": {
+              "duration": 869400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "GET access method with empty password",
+        "description": "",
+        "id": "verify-get-access-operation;get-access-method-with-empty-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73158700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I perform GET operation to get access with username \"tester\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 74
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationToGetAccessWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5719800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see the \"message\" \"Bad credentials\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 353800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify GET access operation",
+    "description": "",
+    "id": "verify-get-access-operation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GET_access.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-06T07:33:37.393Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1008800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "GET all users details with valid information",
+        "description": "",
+        "id": "verify-get-all-user-information;get-all-users-details-with-valid-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85787800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I perform GET operation for all users with username: \"admin\" and password: \"hero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"hero\"",
+                  "offset": 75
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationForAllUsersWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15093700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get a list of users with all their information",
+            "match": {
+              "location": "UserAPI_steps.iShouldGetAListOfUsersWithAllTheirInformation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 362300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.498Z",
+        "before": [
+          {
+            "result": {
+              "duration": 894500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "GET all users details with invalid auth data",
+        "description": "",
+        "id": "verify-get-all-user-information;get-all-users-details-with-invalid-auth-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73679700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I perform GET operation for all users with username: \"invalid\" and password: \"data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"data\"",
+                  "offset": 77
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationForAllUsersWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9293900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the \"message\" \"Bad credentials\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 597200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.588Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1171200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "GET all users details with no auth data",
+        "description": "",
+        "id": "verify-get-all-user-information;get-all-users-details-with-no-auth-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8063000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I perform GET operation on \"/all\" with no auth data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/all\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationOnWithNoAuthData(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12005200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see the \"message\" \"Full authentication is required to access this resource\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Full authentication is required to access this resource\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 971000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify GET all user information",
+    "description": "",
+    "id": "verify-get-all-user-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GET_all_users_information.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-06T07:33:37.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1346300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "GET user details with valid information",
+        "description": "",
+        "id": "verify-get-user-information;get-user-details-with-valid-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16128800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I perform GET operation with username \"dev\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev\"",
+                  "offset": 38
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationWithUsername(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8008300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the \"name\" \"Zuper Dooper Dev\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Zuper Dooper Dev\"",
+                  "offset": 24
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4277900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"password\" field is not present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 0
+                }
+              ],
+              "location": "UserAPI_steps.passwordFieldIsNotPresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 893300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.647Z",
+        "before": [
+          {
+            "result": {
+              "duration": 831100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "GET user details with Invalid information",
+        "description": "",
+        "id": "verify-get-user-information;get-user-details-with-invalid-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8594600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I perform GET operation with username \"invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 38
+                }
+              ],
+              "location": "UserAPI_steps.iPerformGETOperationWithUsername(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21416000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the \"message\" \"Username invalid does not exist.\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Username invalid does not exist.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 585800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.680Z",
+        "before": [
+          {
+            "result": {
+              "duration": 902800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "GET user details without queryParam",
+        "description": "",
+        "id": "verify-get-user-information;get-user-details-without-queryparam",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8351600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I perform GET operation without query parameter",
+            "match": {
+              "location": "UserAPI_steps.iPerformGETOperationWithoutQueryParameter()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1039900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "status code should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify GET user information",
+    "description": "",
+    "id": "verify-get-user-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GET_user_information_by_username.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-06T07:33:37.692Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1174600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "POST method with valid data",
+        "description": "",
+        "id": "verify-post-sign-up-functionality;post-method-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15326600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I perform POST with the following data",
+            "match": {
+              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "jetche5"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche5@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "tester"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c201\u003e but was \u003c403\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor162.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldGetASuccessfulResponseAndMyInformationInTheResponse(UserAPI_steps.java:139)\r\n\tat ✽.I should get a successful response and my information in the response(file:src/test/java/features/POST_sign_up.feature:14)\r\n",
+              "duration": 3521000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I should get a successful response and my information in the response",
+            "match": {
+              "location": "UserAPI_steps.iShouldGetASuccessfulResponseAndMyInformationInTheResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.720Z",
+        "before": [
+          {
+            "result": {
+              "duration": 850000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "POST method with existing data in DB",
+        "description": "",
+        "id": "verify-post-sign-up-functionality;post-method-with-existing-data-in-db",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14245900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I perform POST with the following data",
+            "match": {
+              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "jetche5"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche5@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "tester"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11642000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the \"message\" \"Username or email already registered. Please select different values.\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Username or email already registered. Please select different values.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 589900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "status code should be 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.750Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1061700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "POST method with empty data",
+        "description": "",
+        "id": "verify-post-sign-up-functionality;post-method-with-empty-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 89623600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I perform POST with the following data",
+            "match": {
+              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8798700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should see the \"message\" \"Cannot pass null or empty values to constructor\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Cannot pass null or empty values to constructor\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 626200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "status code should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:37.852Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1088900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "POST method with existing data in DB",
+        "description": "",
+        "id": "verify-post-sign-up-functionality;post-method-with-existing-data-in-db",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18107100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I perform POST with the following data",
+            "match": {
+              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "jetche5"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche5@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "tester"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8064600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I should see the \"message\" \"Username or email already registered. Please select different values.\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Username or email already registered. Please select different values.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 360500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "status code should be 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify POST sign up functionality",
+    "description": "",
+    "id": "verify-post-sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/POST_sign_up.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-06T07:33:37.882Z",
+        "before": [
+          {
+            "result": {
+              "duration": 985200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "PUT method with valid data",
+        "description": "",
+        "id": "verify-update-user-functionality;put-method-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150510600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I perform PUT operation with username \"admin\" and password \"hero\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"hero\"",
+                  "offset": 59
+                }
+              ],
+              "location": "UserAPI_steps.iPerformPUTOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche2"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1970-01-01"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "edited@edited.com"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "testedited"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Gomu Gomu No Mi"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50166100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should receive a successful response and information of user updated",
+            "match": {
+              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndInformationOfUserUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:38.088Z",
+        "before": [
+          {
+            "result": {
+              "duration": 944200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "PUT method with invalid username",
+        "description": "",
+        "id": "verify-update-user-functionality;put-method-with-invalid-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146327300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I perform PUT operation with username \"admin\" and password \"hero\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"hero\"",
+                  "offset": 59
+                }
+              ],
+              "location": "UserAPI_steps.iPerformPUTOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche90"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1970-01-01"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "edited@edited.com"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "testedited"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Gomu Gomu No Mi"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9675500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see the \"message\" \"user should exist\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"user should exist\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 651500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "status code should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:38.248Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1265500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "PUT method with invalid id",
+        "description": "",
+        "id": "verify-update-user-functionality;put-method-with-invalid-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87865500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I perform PUT operation with username \"admin\" and password \"hero\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"hero\"",
+                  "offset": 59
+                }
+              ],
+              "location": "UserAPI_steps.iPerformPUTOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "9483746"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche2"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1970-01-01"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "emailedit@edited.com"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "testedited"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Gomu Gomu No Mi"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7527500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I should see the \"message\" \"Username jetche2 does not exist.\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Username jetche2 does not exist.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 405400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "status code should be 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:38.347Z",
+        "before": [
+          {
+            "result": {
+              "duration": 620700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "PUT method with empty data",
+        "description": "",
+        "id": "verify-update-user-functionality;put-method-with-empty-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 89360900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I perform PUT operation with username \"admin\" and password \"hero\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"hero\"",
+                  "offset": 59
+                }
+              ],
+              "location": "UserAPI_steps.iPerformPUTOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9471200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should see the \"message\" \"The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null!\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 513700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "status code should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:38.448Z",
+        "before": [
+          {
+            "result": {
+              "duration": 963700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "PUT method with email incorrect format",
+        "description": "",
+        "id": "verify-update-user-functionality;put-method-with-email-incorrect-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154998800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I perform PUT operation with username \"admin\" and password \"hero\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"hero\"",
+                  "offset": 59
+                }
+              ],
+              "location": "UserAPI_steps.iPerformPUTOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche2"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1970-01-01"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "edited.com"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "testedited"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Gomu Gomu No Mi"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path message doesn\u0027t match.\nExpected: is \"Email bad format\"\n  Actual: null\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Email bad format\" in body response(file:src/test/java/features/PUT_update_user.feature:67)\r\n",
+              "duration": 9235300,
+              "status": "failed"
+            },
+            "line": 67,
+            "name": "I should see the \"message\" \"Email bad format\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Email bad format\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 351900,
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "status code should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-06T07:33:38.618Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1004900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.TestSetup()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "PUT method with date incorrect format",
+        "description": "",
+        "id": "verify-update-user-functionality;put-method-with-date-incorrect-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80602100,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I perform PUT operation with username \"admin\" and password \"hero\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"hero\"",
+                  "offset": 59
+                }
+              ],
+              "location": "UserAPI_steps.iPerformPUTOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche2"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1970asd"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "edit@edited.com"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "testedited"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Gomu Gomu No Mi"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: Expected response body to be verified as JSON, HTML or XML but no content-type was defined in the response.\nTry registering a default parser using:\n   RestAssured.defaultParser(\u003cparser type\u003e);\nContent was:\n\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.assertion.StreamVerifier.newAssertion(StreamVerifier.groovy:43)\r\n\tat io.restassured.assertion.StreamVerifier$newAssertion.call(Unknown Source)\r\n\tat io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:85)\r\n\tat io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)\r\n\tat io.restassured.assertion.BodyMatcherGroup$_validate_closure2.doCall(BodyMatcherGroup.groovy:47)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor160.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)\r\n\tat groovy.lang.Closure.call(Closure.java:405)\r\n\tat groovy.lang.Closure.call(Closure.java:421)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3574)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3559)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3659)\r\n\tat org.codehaus.groovy.runtime.dgm$87.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:244)\r\n\tat org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)\r\n\tat io.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)\r\n\tat io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:480)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Date bad format\" in body response(file:src/test/java/features/PUT_update_user.feature:80)\r\n",
+              "duration": 4479300,
+              "status": "failed"
+            },
+            "line": 80,
+            "name": "I should see the \"message\" \"Date bad format\" in body response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Date bad format\"",
+                  "offset": 27
+                }
+              ],
+              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275800,
+              "status": "skipped"
+            },
+            "line": 81,
+            "name": "status code should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 22
+                }
+              ],
+              "location": "UserAPI_steps.statusCodeShouldBe(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Update user functionality",
+    "description": "",
+    "id": "verify-update-user-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/PUT_update_user.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

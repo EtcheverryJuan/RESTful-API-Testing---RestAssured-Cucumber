@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 5.198 sec <<< FAILURE! - in TestRunner
+DELETE method with invalid email(Verify Delete user functionality)  Time elapsed: 0.232 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: is "Email does not exist"
+  Actual: Username jetche4 does not exist.
+
+
+POST method with valid data(Verify POST sign up functionality)  Time elapsed: 0.171 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <403>.
+
+
+PUT method with email incorrect format(Verify Update user functionality)  Time elapsed: 0.291 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: is "Email bad format"
+  Actual: null
+
+
+PUT method with date incorrect format(Verify Update user functionality)  Time elapsed: 0.269 sec  <<< ERROR!
+java.lang.IllegalStateException: 
+Expected response body to be verified as JSON, HTML or XML but no content-type was defined in the response.
+Try registering a default parser using:
+   RestAssured.defaultParser(<parser type>);
+Content was:
+
+
+

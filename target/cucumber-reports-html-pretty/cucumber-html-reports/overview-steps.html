@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1.0) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>WAES-RESTful-API-testing</td>
+              <td>1.0</td>
+            <td>06 Oct 2019, 04:33</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">TestInitialize.TestSetup()</td>
+              <td>29</td>
+              <td class="duration" data-value="20318586">0.020</td>
+              <td class="duration" data-value="20318586">0.555</td>
+              <td class="duration" data-value="589239000">0.589</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithBodyAnd(String,String,String,String)</td>
+              <td>1</td>
+              <td class="duration" data-value="75950900">0.075</td>
+              <td class="duration" data-value="75950900">0.075</td>
+              <td class="duration" data-value="75950900">0.075</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)</td>
+              <td>7</td>
+              <td class="duration" data-value="86377457">0.086</td>
+              <td class="duration" data-value="86377457">0.107</td>
+              <td class="duration" data-value="604642200">0.604</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformGETOperationForAllUsersWithUsernameAndPassword(String,String)</td>
+              <td>2</td>
+              <td class="duration" data-value="79733750">0.079</td>
+              <td class="duration" data-value="79733750">0.085</td>
+              <td class="duration" data-value="159467500">0.159</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformGETOperationOnWithNoAuthData(String)</td>
+              <td>2</td>
+              <td class="duration" data-value="8037000">0.008</td>
+              <td class="duration" data-value="8037000">0.008</td>
+              <td class="duration" data-value="16074000">0.016</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformGETOperationToGetAccessWithUsernameAndPassword(String,String)</td>
+              <td>5</td>
+              <td class="duration" data-value="79836660">0.079</td>
+              <td class="duration" data-value="79836660">0.097</td>
+              <td class="duration" data-value="399183300">0.399</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformGETOperationWithUsername(String)</td>
+              <td>2</td>
+              <td class="duration" data-value="12361700">0.012</td>
+              <td class="duration" data-value="12361700">0.016</td>
+              <td class="duration" data-value="24723400">0.024</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformGETOperationWithoutQueryParameter()</td>
+              <td>1</td>
+              <td class="duration" data-value="8351600">0.008</td>
+              <td class="duration" data-value="8351600">0.008</td>
+              <td class="duration" data-value="8351600">0.008</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)</td>
+              <td>7</td>
+              <td class="duration" data-value="173873785">0.173</td>
+              <td class="duration" data-value="173873785">0.917</td>
+              <td class="duration" data-value="1217116500">1.217</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iPerformPUTOperationWithUsernameAndPasswordWithData(String,String,DataTable)</td>
+              <td>6</td>
+              <td class="duration" data-value="118277533">0.118</td>
+              <td class="duration" data-value="118277533">0.154</td>
+              <td class="duration" data-value="709665200">0.709</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iShouldGetAListOfUsersWithAllTheirInformation()</td>
+              <td>1</td>
+              <td class="duration" data-value="15093700">0.015</td>
+              <td class="duration" data-value="15093700">0.015</td>
+              <td class="duration" data-value="15093700">0.015</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iShouldGetASuccessfulResponseAndMyInformationInTheResponse()</td>
+              <td>1</td>
+              <td class="duration" data-value="3521000">0.003</td>
+              <td class="duration" data-value="3521000">0.003</td>
+              <td class="duration" data-value="3521000">0.003</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessage()</td>
+              <td>3</td>
+              <td class="duration" data-value="23727700">0.023</td>
+              <td class="duration" data-value="23727700">0.065</td>
+              <td class="duration" data-value="71183100">0.071</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iShouldReceiveASuccessfulResponseAndInformationOfUserUpdated()</td>
+              <td>1</td>
+              <td class="duration" data-value="50166100">0.050</td>
+              <td class="duration" data-value="50166100">0.050</td>
+              <td class="duration" data-value="50166100">0.050</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)</td>
+              <td>22</td>
+              <td class="duration" data-value="19944250">0.019</td>
+              <td class="duration" data-value="19944250">0.236</td>
+              <td class="duration" data-value="438773500">0.438</td>
+              <td class="failed">86.36%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.passwordFieldIsNotPresent(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="4277900">0.004</td>
+              <td class="duration" data-value="4277900">0.004</td>
+              <td class="duration" data-value="4277900">0.004</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">UserAPI_steps.statusCodeShouldBe(int)</td>
+              <td>25</td>
+              <td class="duration" data-value="617192">0.000</td>
+              <td class="duration" data-value="617192">0.001</td>
+              <td class="duration" data-value="15429800">0.015</td>
+              <td class="failed">88.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>17</td>
+            <td>116</td>
+            <td class="duration">0.037</td>
+            <td class="duration">1.217</td>
+            <td class="duration">4.402</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
