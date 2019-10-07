@@ -1,6 +1,6 @@
 @FunctionalTest
 Feature: Verify GET access operation
-
+  @SmokeTest
   Scenario: GET access method with valid username and password
     Given I perform GET operation to get access with username "tester" and password "maniac"
     Then status code should be 200
