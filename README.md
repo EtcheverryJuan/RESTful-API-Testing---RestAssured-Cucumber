@@ -43,7 +43,7 @@ You can run all the test as a suite, specified as Functional Regression or Smoke
 #### Execute complete Functional Regression
 By default, all tests are going to run as a suite for funcitonal regression, which includes all tests.
 1. From command line using maven
- 1. Download code zip and Unzip on desired folder
+ 1. Download code, `git clone repository`
  2. Open command line from folder
  3. Run `mvn clean install`
 2. From TestRunner file
