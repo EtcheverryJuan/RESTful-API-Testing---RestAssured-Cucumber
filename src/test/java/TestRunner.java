@@ -9,7 +9,7 @@ TAGS to RUN SUITES
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty", "html:target/cucumber-reports-html", "json:target/jsonReports/cucumber-json-report.json"},
-        features = "src/test/java/features",
+        features = "src/test/resources/features",
         glue={"steps"},
         monochrome = true,
         tags = {"@FunctionalTest"}

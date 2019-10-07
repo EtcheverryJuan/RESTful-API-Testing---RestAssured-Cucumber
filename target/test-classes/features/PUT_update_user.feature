@@ -4,8 +4,8 @@ Feature: Verify Update user functionality
   @SmokeTest
   Scenario: PUT method with valid data
     Given I perform PUT operation with username "admin" and password "hero" with data
-    |id|10|
-    |username|jetche2|
+    |id|23|
+    |username|jetche6|
     |dateOfBirth|1970-01-01|
     |email      |edited@edited.com|
     |isAdmin    |false            |
@@ -16,7 +16,7 @@ Feature: Verify Update user functionality
 
   Scenario: PUT method with invalid username
     Given I perform PUT operation with username "admin" and password "hero" with data
-      |id|10|
+      |id|7|
       |username|jetche90|
       |dateOfBirth|1970-01-01|
       |email      |edited@edited.com|
@@ -31,14 +31,14 @@ Feature: Verify Update user functionality
   Scenario: PUT method with invalid id
     Given I perform PUT operation with username "admin" and password "hero" with data
       |id|9483746|
-      |username|jetche2|
+      |username|jetche6|
       |dateOfBirth|1970-01-01|
       |email      |emailedit@edited.com|
       |isAdmin    |false            |
       |name       |Juan Etcheverry  |
       |password   |testedited       |
       |superpower |Gomu Gomu No Mi  |
-    Then I should see the "message" "Username jetche2 does not exist." in body response
+    Then I should see the "message" "Username jetche6 does not exist." in body response
     And status code should be 404
 
   Scenario: PUT method with empty data
@@ -56,8 +56,8 @@ Feature: Verify Update user functionality
 
   Scenario: PUT method with email incorrect format
     Given I perform PUT operation with username "admin" and password "hero" with data
-      |id|10|
-      |username|jetche2|
+      |id|23|
+      |username|jetche76|
       |dateOfBirth|1970-01-01|
       |email      |edited.com|
       |isAdmin    |false            |
@@ -69,8 +69,8 @@ Feature: Verify Update user functionality
 
   Scenario: PUT method with date incorrect format
     Given I perform PUT operation with username "admin" and password "hero" with data
-      |id|10|
-      |username|jetche2|
+      |id|23|
+      |username|jetche6|
       |dateOfBirth|1970asd|
       |email      |edit@edited.com|
       |isAdmin    |false            |

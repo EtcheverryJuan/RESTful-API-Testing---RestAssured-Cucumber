@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-10-06T07:33:34.182Z",
+        "start_timestamp": "2019-10-07T15:24:13.485Z",
         "before": [
           {
             "result": {
-              "duration": 555656100,
+              "duration": 538478600,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 917573300,
+              "duration": 899457000,
               "status": "passed"
             },
             "line": 6,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 107197100,
+              "duration": 102778000,
               "status": "passed"
             },
             "line": 14,
@@ -146,19 +146,25 @@
           },
           {
             "result": {
-              "duration": 65926500,
+              "duration": 57817500,
               "status": "passed"
             },
             "line": 22,
-            "name": "I should receive a successful response and a confirmation message",
+            "name": "I should receive a successful response and a confirmation message  for \"jetche4\" deleted",
             "match": {
-              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessage()"
+              "arguments": [
+                {
+                  "val": "\"jetche4\"",
+                  "offset": 71
+                }
+              ],
+              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessageForDeleted(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 97946900,
+              "duration": 95944600,
               "status": "passed"
             },
             "line": 23,
@@ -180,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 616900,
+              "duration": 670200,
               "status": "passed"
             },
             "line": 24,
@@ -207,11 +213,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:35.963Z",
+        "start_timestamp": "2019-10-07T15:24:15.222Z",
         "before": [
           {
             "result": {
-              "duration": 2159900,
+              "duration": 2545400,
               "status": "passed"
             },
             "match": {
@@ -228,7 +234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81422000,
+              "duration": 76568800,
               "status": "passed"
             },
             "line": 27,
@@ -294,7 +300,7 @@
           },
           {
             "result": {
-              "duration": 236281900,
+              "duration": 217934000,
               "status": "passed"
             },
             "line": 35,
@@ -316,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 892500,
+              "duration": 703400,
               "status": "passed"
             },
             "line": 36,
@@ -340,11 +346,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:36.287Z",
+        "start_timestamp": "2019-10-07T15:24:15.522Z",
         "before": [
           {
             "result": {
-              "duration": 1569900,
+              "duration": 1195000,
               "status": "passed"
             },
             "match": {
@@ -361,7 +367,7 @@
         "steps": [
           {
             "result": {
-              "duration": 96566200,
+              "duration": 80843100,
               "status": "passed"
             },
             "line": 39,
@@ -427,7 +433,7 @@
           },
           {
             "result": {
-              "duration": 10097700,
+              "duration": 7433900,
               "status": "passed"
             },
             "line": 47,
@@ -449,7 +455,7 @@
           },
           {
             "result": {
-              "duration": 1023400,
+              "duration": 506700,
               "status": "passed"
             },
             "line": 48,
@@ -473,11 +479,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:36.398Z",
+        "start_timestamp": "2019-10-07T15:24:15.614Z",
         "before": [
           {
             "result": {
-              "duration": 1064500,
+              "duration": 1225600,
               "status": "passed"
             },
             "match": {
@@ -494,7 +500,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81507500,
+              "duration": 76215000,
               "status": "passed"
             },
             "line": 51,
@@ -560,7 +566,7 @@
           },
           {
             "result": {
-              "duration": 7460300,
+              "duration": 12562500,
               "status": "passed"
             },
             "line": 59,
@@ -582,7 +588,7 @@
           },
           {
             "result": {
-              "duration": 1198700,
+              "duration": 928200,
               "status": "passed"
             },
             "line": 60,
@@ -606,11 +612,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:36.491Z",
+        "start_timestamp": "2019-10-07T15:24:15.706Z",
         "before": [
           {
             "result": {
-              "duration": 1643500,
+              "duration": 1450800,
               "status": "passed"
             },
             "match": {
@@ -627,7 +633,7 @@
         "steps": [
           {
             "result": {
-              "duration": 82388800,
+              "duration": 77931600,
               "status": "passed"
             },
             "line": 63,
@@ -693,7 +699,7 @@
           },
           {
             "result": {
-              "duration": 9091000,
+              "duration": 6987500,
               "status": "passed"
             },
             "line": 71,
@@ -715,7 +721,7 @@
           },
           {
             "result": {
-              "duration": 881400,
+              "duration": 928900,
               "status": "passed"
             },
             "line": 72,
@@ -739,11 +745,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:36.588Z",
+        "start_timestamp": "2019-10-07T15:24:15.795Z",
         "before": [
           {
             "result": {
-              "duration": 910600,
+              "duration": 820000,
               "status": "passed"
             },
             "match": {
@@ -760,7 +766,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76251900,
+              "duration": 76593300,
               "status": "passed"
             },
             "line": 75,
@@ -826,8 +832,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path message doesn\u0027t match.\nExpected: is \"Email does not exist\"\n  Actual: Username jetche4 does not exist.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Email does not exist\" in body response(file:src/test/java/features/DELETE_user.feature:83)\r\n",
-              "duration": 17375200,
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path message doesn\u0027t match.\nExpected: is \"Email does not exist\"\n  Actual: Username jetche4 does not exist.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Email does not exist\" in body response(file:src/test/resources/features/DELETE_user.feature:83)\r\n",
+              "duration": 15169100,
               "status": "failed"
             },
             "line": 83,
@@ -849,7 +855,7 @@
           },
           {
             "result": {
-              "duration": 452600,
+              "duration": 279300,
               "status": "skipped"
             },
             "line": 84,
@@ -873,11 +879,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:36.693Z",
+        "start_timestamp": "2019-10-07T15:24:15.896Z",
         "before": [
           {
             "result": {
-              "duration": 2991700,
+              "duration": 2217600,
               "status": "passed"
             },
             "match": {
@@ -894,7 +900,7 @@
         "steps": [
           {
             "result": {
-              "duration": 82310500,
+              "duration": 77613000,
               "status": "passed"
             },
             "line": 87,
@@ -950,7 +956,7 @@
           },
           {
             "result": {
-              "duration": 75950900,
+              "duration": 77640800,
               "status": "passed"
             },
             "line": 95,
@@ -980,13 +986,19 @@
           },
           {
             "result": {
-              "duration": 3453600,
+              "duration": 2050400,
               "status": "passed"
             },
             "line": 96,
-            "name": "I should receive a successful response and a confirmation message",
+            "name": "I should receive a successful response and a confirmation message  for \"jetche4\" deleted",
             "match": {
-              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessage()"
+              "arguments": [
+                {
+                  "val": "\"jetche4\"",
+                  "offset": 71
+                }
+              ],
+              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessageForDeleted(String)"
             },
             "keyword": "Then "
           }
@@ -998,11 +1010,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:36.861Z",
+        "start_timestamp": "2019-10-07T15:24:16.056Z",
         "before": [
           {
             "result": {
-              "duration": 1679600,
+              "duration": 1364000,
               "status": "passed"
             },
             "match": {
@@ -1019,7 +1031,7 @@
         "steps": [
           {
             "result": {
-              "duration": 79929500,
+              "duration": 76786100,
               "status": "passed"
             },
             "line": 99,
@@ -1075,7 +1087,7 @@
           },
           {
             "result": {
-              "duration": 79308700,
+              "duration": 75359800,
               "status": "passed"
             },
             "line": 107,
@@ -1141,13 +1153,19 @@
           },
           {
             "result": {
-              "duration": 1803000,
+              "duration": 1514900,
               "status": "passed"
             },
             "line": 115,
-            "name": "I should receive a successful response and a confirmation message",
+            "name": "I should receive a successful response and a confirmation message  for \"jetche4\" deleted",
             "match": {
-              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessage()"
+              "arguments": [
+                {
+                  "val": "\"jetche4\"",
+                  "offset": 71
+                }
+              ],
+              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessageForDeleted(String)"
             },
             "keyword": "Then "
           }
@@ -1163,7 +1181,7 @@
     "description": "",
     "id": "verify-delete-user-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/DELETE_user.feature",
+    "uri": "file:src/test/resources/features/DELETE_user.feature",
     "tags": [
       {
         "name": "@FunctionalTest",
@@ -1179,11 +1197,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-10-06T07:33:37.026Z",
+        "start_timestamp": "2019-10-07T15:24:16.217Z",
         "before": [
           {
             "result": {
-              "duration": 1421300,
+              "duration": 1140600,
               "status": "passed"
             },
             "match": {
@@ -1200,7 +1218,7 @@
         "steps": [
           {
             "result": {
-              "duration": 74894200,
+              "duration": 72300100,
               "status": "passed"
             },
             "line": 5,
@@ -1222,7 +1240,7 @@
           },
           {
             "result": {
-              "duration": 521900,
+              "duration": 385900,
               "status": "passed"
             },
             "line": 6,
@@ -1240,7 +1258,7 @@
           },
           {
             "result": {
-              "duration": 11433400,
+              "duration": 7270100,
               "status": "passed"
             },
             "line": 7,
@@ -1264,15 +1282,18 @@
         "tags": [
           {
             "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
           }
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.118Z",
+        "start_timestamp": "2019-10-07T15:24:16.303Z",
         "before": [
           {
             "result": {
-              "duration": 1363100,
+              "duration": 870900,
               "status": "passed"
             },
             "match": {
@@ -1289,7 +1310,7 @@
         "steps": [
           {
             "result": {
-              "duration": 73989200,
+              "duration": 70758300,
               "status": "passed"
             },
             "line": 10,
@@ -1311,7 +1332,7 @@
           },
           {
             "result": {
-              "duration": 7559400,
+              "duration": 6265700,
               "status": "passed"
             },
             "line": 11,
@@ -1333,7 +1354,7 @@
           },
           {
             "result": {
-              "duration": 410400,
+              "duration": 400700,
               "status": "passed"
             },
             "line": 12,
@@ -1357,11 +1378,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.204Z",
+        "start_timestamp": "2019-10-07T15:24:16.383Z",
         "before": [
           {
             "result": {
-              "duration": 764900,
+              "duration": 1151500,
               "status": "passed"
             },
             "match": {
@@ -1378,7 +1399,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8011000,
+              "duration": 7214900,
               "status": "passed"
             },
             "line": 15,
@@ -1396,7 +1417,7 @@
           },
           {
             "result": {
-              "duration": 7111300,
+              "duration": 7493300,
               "status": "passed"
             },
             "line": 16,
@@ -1418,7 +1439,7 @@
           },
           {
             "result": {
-              "duration": 373000,
+              "duration": 558400,
               "status": "passed"
             },
             "line": 17,
@@ -1442,11 +1463,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.221Z",
+        "start_timestamp": "2019-10-07T15:24:16.401Z",
         "before": [
           {
             "result": {
-              "duration": 1030400,
+              "duration": 1306300,
               "status": "passed"
             },
             "match": {
@@ -1463,7 +1484,7 @@
         "steps": [
           {
             "result": {
-              "duration": 79194300,
+              "duration": 79492700,
               "status": "passed"
             },
             "line": 20,
@@ -1485,7 +1506,7 @@
           },
           {
             "result": {
-              "duration": 7026000,
+              "duration": 5552700,
               "status": "passed"
             },
             "line": 21,
@@ -1507,7 +1528,7 @@
           },
           {
             "result": {
-              "duration": 480800,
+              "duration": 366700,
               "status": "passed"
             },
             "line": 22,
@@ -1531,11 +1552,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.311Z",
+        "start_timestamp": "2019-10-07T15:24:16.490Z",
         "before": [
           {
             "result": {
-              "duration": 869400,
+              "duration": 965600,
               "status": "passed"
             },
             "match": {
@@ -1552,7 +1573,7 @@
         "steps": [
           {
             "result": {
-              "duration": 73158700,
+              "duration": 72630800,
               "status": "passed"
             },
             "line": 25,
@@ -1574,7 +1595,7 @@
           },
           {
             "result": {
-              "duration": 5719800,
+              "duration": 5821500,
               "status": "passed"
             },
             "line": 26,
@@ -1596,7 +1617,7 @@
           },
           {
             "result": {
-              "duration": 353800,
+              "duration": 390400,
               "status": "passed"
             },
             "line": 27,
@@ -1624,7 +1645,7 @@
     "description": "",
     "id": "verify-get-access-operation",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/GET_access.feature",
+    "uri": "file:src/test/resources/features/GET_access.feature",
     "tags": [
       {
         "name": "@FunctionalTest",
@@ -1640,11 +1661,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-10-06T07:33:37.393Z",
+        "start_timestamp": "2019-10-07T15:24:16.570Z",
         "before": [
           {
             "result": {
-              "duration": 1008800,
+              "duration": 1507200,
               "status": "passed"
             },
             "match": {
@@ -1661,7 +1682,7 @@
         "steps": [
           {
             "result": {
-              "duration": 85787800,
+              "duration": 73257100,
               "status": "passed"
             },
             "line": 6,
@@ -1683,7 +1704,7 @@
           },
           {
             "result": {
-              "duration": 15093700,
+              "duration": 13520300,
               "status": "passed"
             },
             "line": 7,
@@ -1695,7 +1716,7 @@
           },
           {
             "result": {
-              "duration": 362300,
+              "duration": 347300,
               "status": "passed"
             },
             "line": 8,
@@ -1722,11 +1743,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.498Z",
+        "start_timestamp": "2019-10-07T15:24:16.663Z",
         "before": [
           {
             "result": {
-              "duration": 894500,
+              "duration": 827300,
               "status": "passed"
             },
             "match": {
@@ -1743,7 +1764,7 @@
         "steps": [
           {
             "result": {
-              "duration": 73679700,
+              "duration": 70691800,
               "status": "passed"
             },
             "line": 11,
@@ -1765,7 +1786,7 @@
           },
           {
             "result": {
-              "duration": 9293900,
+              "duration": 7314600,
               "status": "passed"
             },
             "line": 12,
@@ -1787,7 +1808,7 @@
           },
           {
             "result": {
-              "duration": 597200,
+              "duration": 403900,
               "status": "passed"
             },
             "line": 13,
@@ -1811,11 +1832,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.588Z",
+        "start_timestamp": "2019-10-07T15:24:16.744Z",
         "before": [
           {
             "result": {
-              "duration": 1171200,
+              "duration": 1458900,
               "status": "passed"
             },
             "match": {
@@ -1832,7 +1853,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8063000,
+              "duration": 7390300,
               "status": "passed"
             },
             "line": 16,
@@ -1850,7 +1871,7 @@
           },
           {
             "result": {
-              "duration": 12005200,
+              "duration": 7152300,
               "status": "passed"
             },
             "line": 17,
@@ -1872,7 +1893,7 @@
           },
           {
             "result": {
-              "duration": 971000,
+              "duration": 605600,
               "status": "passed"
             },
             "line": 18,
@@ -1900,7 +1921,7 @@
     "description": "",
     "id": "verify-get-all-user-information",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/GET_all_users_information.feature",
+    "uri": "file:src/test/resources/features/GET_all_users_information.feature",
     "tags": [
       {
         "name": "@FunctionalTest",
@@ -1916,11 +1937,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-10-06T07:33:37.613Z",
+        "start_timestamp": "2019-10-07T15:24:16.763Z",
         "before": [
           {
             "result": {
-              "duration": 1346300,
+              "duration": 1186200,
               "status": "passed"
             },
             "match": {
@@ -1937,7 +1958,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16128800,
+              "duration": 15373500,
               "status": "passed"
             },
             "line": 6,
@@ -1955,7 +1976,7 @@
           },
           {
             "result": {
-              "duration": 8008300,
+              "duration": 7246800,
               "status": "passed"
             },
             "line": 7,
@@ -1977,7 +1998,7 @@
           },
           {
             "result": {
-              "duration": 4277900,
+              "duration": 4379000,
               "status": "passed"
             },
             "line": 8,
@@ -1995,7 +2016,7 @@
           },
           {
             "result": {
-              "duration": 893300,
+              "duration": 534300,
               "status": "passed"
             },
             "line": 9,
@@ -2022,11 +2043,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.647Z",
+        "start_timestamp": "2019-10-07T15:24:16.796Z",
         "before": [
           {
             "result": {
-              "duration": 831100,
+              "duration": 1008100,
               "status": "passed"
             },
             "match": {
@@ -2043,7 +2064,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8594600,
+              "duration": 10370500,
               "status": "passed"
             },
             "line": 12,
@@ -2061,7 +2082,7 @@
           },
           {
             "result": {
-              "duration": 21416000,
+              "duration": 8927200,
               "status": "passed"
             },
             "line": 13,
@@ -2083,7 +2104,7 @@
           },
           {
             "result": {
-              "duration": 585800,
+              "duration": 537700,
               "status": "passed"
             },
             "line": 14,
@@ -2107,11 +2128,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.680Z",
+        "start_timestamp": "2019-10-07T15:24:16.819Z",
         "before": [
           {
             "result": {
-              "duration": 902800,
+              "duration": 946500,
               "status": "passed"
             },
             "match": {
@@ -2128,7 +2149,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8351600,
+              "duration": 7890100,
               "status": "passed"
             },
             "line": 17,
@@ -2140,7 +2161,7 @@
           },
           {
             "result": {
-              "duration": 1039900,
+              "duration": 527100,
               "status": "passed"
             },
             "line": 18,
@@ -2168,7 +2189,7 @@
     "description": "",
     "id": "verify-get-user-information",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/GET_user_information_by_username.feature",
+    "uri": "file:src/test/resources/features/GET_user_information_by_username.feature",
     "tags": [
       {
         "name": "@FunctionalTest",
@@ -2184,11 +2205,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-10-06T07:33:37.692Z",
+        "start_timestamp": "2019-10-07T15:24:16.830Z",
         "before": [
           {
             "result": {
-              "duration": 1174600,
+              "duration": 878700,
               "status": "passed"
             },
             "match": {
@@ -2205,7 +2226,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15326600,
+              "duration": 13560200,
               "status": "passed"
             },
             "line": 6,
@@ -2261,8 +2282,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c201\u003e but was \u003c403\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor162.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldGetASuccessfulResponseAndMyInformationInTheResponse(UserAPI_steps.java:139)\r\n\tat ✽.I should get a successful response and my information in the response(file:src/test/java/features/POST_sign_up.feature:14)\r\n",
-              "duration": 3521000,
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c201\u003e but was \u003c403\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor162.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldGetASuccessfulResponseAndMyInformationInTheResponse(UserAPI_steps.java:129)\r\n\tat ✽.I should get a successful response and my information in the response(file:src/test/resources/features/POST_sign_up.feature:14)\r\n",
+              "duration": 3488000,
               "status": "failed"
             },
             "line": 14,
@@ -2271,6 +2292,90 @@
               "location": "UserAPI_steps.iShouldGetASuccessfulResponseAndMyInformationInTheResponse()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1098000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I perform DELETE operation with username \"tester\" and password \"maniac\" with data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 63
+                }
+              ],
+              "location": "UserAPI_steps.iPerformDELETEOperationWithUsernameAndPasswordWithData(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "7"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "jetche5"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche5@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169800,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I should receive a successful response and a confirmation message  for \"jetche5\" deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jetche5\"",
+                  "offset": 71
+                }
+              ],
+              "location": "UserAPI_steps.iShouldReceiveASuccessfulResponseAndAConfirmationMessageForDeleted(String)"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -2283,11 +2388,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.720Z",
+        "start_timestamp": "2019-10-07T15:24:16.855Z",
         "before": [
           {
             "result": {
-              "duration": 850000,
+              "duration": 665000,
               "status": "passed"
             },
             "match": {
@@ -2295,7 +2400,7 @@
             }
           }
         ],
-        "line": 16,
+        "line": 25,
         "name": "POST method with existing data in DB",
         "description": "",
         "id": "verify-post-sign-up-functionality;post-method-with-existing-data-in-db",
@@ -2304,10 +2409,10 @@
         "steps": [
           {
             "result": {
-              "duration": 14245900,
+              "duration": 14901000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 26,
             "name": "I perform POST with the following data",
             "match": {
               "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
@@ -2360,10 +2465,79 @@
           },
           {
             "result": {
-              "duration": 11642000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c201\u003e but was \u003c403\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor162.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldGetASuccessfulResponseAndMyInformationInTheResponse(UserAPI_steps.java:129)\r\n\tat ✽.I should get a successful response and my information in the response(file:src/test/resources/features/POST_sign_up.feature:34)\r\n",
+              "duration": 720100,
+              "status": "failed"
             },
-            "line": 25,
+            "line": 34,
+            "name": "I should get a successful response and my information in the response",
+            "match": {
+              "location": "UserAPI_steps.iShouldGetASuccessfulResponseAndMyInformationInTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1484800,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I perform POST with the following data",
+            "match": {
+              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "jetche5"
+                ]
+              },
+              {
+                "cells": [
+                  "isAdmin",
+                  "false"
+                ]
+              },
+              {
+                "cells": [
+                  "dateOfBirth",
+                  "1986-07-10"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jetche5@wearewaes.com"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Juan Etcheverry"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "tester"
+                ]
+              },
+              {
+                "cells": [
+                  "superpower",
+                  "Super Sayan"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233800,
+              "status": "skipped"
+            },
+            "line": 43,
             "name": "I should see the \"message\" \"Username or email already registered. Please select different values.\" in body response",
             "match": {
               "arguments": [
@@ -2382,10 +2556,10 @@
           },
           {
             "result": {
-              "duration": 589900,
-              "status": "passed"
+              "duration": 208900,
+              "status": "skipped"
             },
-            "line": 26,
+            "line": 44,
             "name": "status code should be 403",
             "match": {
               "arguments": [
@@ -2406,11 +2580,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:37.750Z",
+        "start_timestamp": "2019-10-07T15:24:16.875Z",
         "before": [
           {
             "result": {
-              "duration": 1061700,
+              "duration": 6455700,
               "status": "passed"
             },
             "match": {
@@ -2418,7 +2592,7 @@
             }
           }
         ],
-        "line": 28,
+        "line": 46,
         "name": "POST method with empty data",
         "description": "",
         "id": "verify-post-sign-up-functionality;post-method-with-empty-data",
@@ -2427,10 +2601,10 @@
         "steps": [
           {
             "result": {
-              "duration": 89623600,
+              "duration": 81384500,
               "status": "passed"
             },
-            "line": 29,
+            "line": 47,
             "name": "I perform POST with the following data",
             "match": {
               "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
@@ -2483,10 +2657,10 @@
           },
           {
             "result": {
-              "duration": 8798700,
+              "duration": 7008300,
               "status": "passed"
             },
-            "line": 37,
+            "line": 55,
             "name": "I should see the \"message\" \"Cannot pass null or empty values to constructor\" in body response",
             "match": {
               "arguments": [
@@ -2505,138 +2679,15 @@
           },
           {
             "result": {
-              "duration": 626200,
+              "duration": 410400,
               "status": "passed"
             },
-            "line": 38,
+            "line": 56,
             "name": "status code should be 400",
             "match": {
               "arguments": [
                 {
                   "val": "400",
-                  "offset": 22
-                }
-              ],
-              "location": "UserAPI_steps.statusCodeShouldBe(int)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-10-06T07:33:37.852Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1088900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TestInitialize.TestSetup()"
-            }
-          }
-        ],
-        "line": 40,
-        "name": "POST method with existing data in DB",
-        "description": "",
-        "id": "verify-post-sign-up-functionality;post-method-with-existing-data-in-db",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 18107100,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "I perform POST with the following data",
-            "match": {
-              "location": "UserAPI_steps.iPerformPOSTWithTheFollowingData(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "jetche5"
-                ]
-              },
-              {
-                "cells": [
-                  "isAdmin",
-                  "false"
-                ]
-              },
-              {
-                "cells": [
-                  "dateOfBirth",
-                  "1986-07-10"
-                ]
-              },
-              {
-                "cells": [
-                  "email",
-                  "jetche5@wearewaes.com"
-                ]
-              },
-              {
-                "cells": [
-                  "name",
-                  "Juan Etcheverry"
-                ]
-              },
-              {
-                "cells": [
-                  "password",
-                  "tester"
-                ]
-              },
-              {
-                "cells": [
-                  "superpower",
-                  "Super Sayan"
-                ]
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 8064600,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "I should see the \"message\" \"Username or email already registered. Please select different values.\" in body response",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"message\"",
-                  "offset": 17
-                },
-                {
-                  "val": "\"Username or email already registered. Please select different values.\"",
-                  "offset": 27
-                }
-              ],
-              "location": "UserAPI_steps.iShouldSeeTheInBodyResponse(String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 360500,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "status code should be 403",
-            "match": {
-              "arguments": [
-                {
-                  "val": "403",
                   "offset": 22
                 }
               ],
@@ -2656,7 +2707,7 @@
     "description": "",
     "id": "verify-post-sign-up-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/POST_sign_up.feature",
+    "uri": "file:src/test/resources/features/POST_sign_up.feature",
     "tags": [
       {
         "name": "@FunctionalTest",
@@ -2672,11 +2723,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-10-06T07:33:37.882Z",
+        "start_timestamp": "2019-10-07T15:24:16.973Z",
         "before": [
           {
             "result": {
-              "duration": 985200,
+              "duration": 606500,
               "status": "passed"
             },
             "match": {
@@ -2693,7 +2744,7 @@
         "steps": [
           {
             "result": {
-              "duration": 150510600,
+              "duration": 139297300,
               "status": "passed"
             },
             "line": 6,
@@ -2715,13 +2766,13 @@
               {
                 "cells": [
                   "id",
-                  "10"
+                  "23"
                 ]
               },
               {
                 "cells": [
                   "username",
-                  "jetche2"
+                  "jetche6"
                 ]
               },
               {
@@ -2765,7 +2816,7 @@
           },
           {
             "result": {
-              "duration": 50166100,
+              "duration": 38635100,
               "status": "passed"
             },
             "line": 15,
@@ -2786,11 +2837,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:38.088Z",
+        "start_timestamp": "2019-10-07T15:24:17.156Z",
         "before": [
           {
             "result": {
-              "duration": 944200,
+              "duration": 836700,
               "status": "passed"
             },
             "match": {
@@ -2807,7 +2858,7 @@
         "steps": [
           {
             "result": {
-              "duration": 146327300,
+              "duration": 74808200,
               "status": "passed"
             },
             "line": 18,
@@ -2829,7 +2880,7 @@
               {
                 "cells": [
                   "id",
-                  "10"
+                  "7"
                 ]
               },
               {
@@ -2879,8 +2930,9 @@
           },
           {
             "result": {
-              "duration": 9675500,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path message doesn\u0027t match.\nExpected: is \"user should exist\"\n  Actual: Username jetche90 does not exist.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"user should exist\" in body response(file:src/test/resources/features/PUT_update_user.feature:27)\r\n",
+              "duration": 6522500,
+              "status": "failed"
             },
             "line": 27,
             "name": "I should see the \"message\" \"user should exist\" in body response",
@@ -2901,8 +2953,8 @@
           },
           {
             "result": {
-              "duration": 651500,
-              "status": "passed"
+              "duration": 171600,
+              "status": "skipped"
             },
             "line": 28,
             "name": "status code should be 400",
@@ -2925,11 +2977,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:38.248Z",
+        "start_timestamp": "2019-10-07T15:24:17.240Z",
         "before": [
           {
             "result": {
-              "duration": 1265500,
+              "duration": 688500,
               "status": "passed"
             },
             "match": {
@@ -2946,7 +2998,7 @@
         "steps": [
           {
             "result": {
-              "duration": 87865500,
+              "duration": 77114900,
               "status": "passed"
             },
             "line": 32,
@@ -2974,7 +3026,7 @@
               {
                 "cells": [
                   "username",
-                  "jetche2"
+                  "jetche6"
                 ]
               },
               {
@@ -3018,11 +3070,11 @@
           },
           {
             "result": {
-              "duration": 7527500,
+              "duration": 6074200,
               "status": "passed"
             },
             "line": 41,
-            "name": "I should see the \"message\" \"Username jetche2 does not exist.\" in body response",
+            "name": "I should see the \"message\" \"Username jetche6 does not exist.\" in body response",
             "match": {
               "arguments": [
                 {
@@ -3030,7 +3082,7 @@
                   "offset": 17
                 },
                 {
-                  "val": "\"Username jetche2 does not exist.\"",
+                  "val": "\"Username jetche6 does not exist.\"",
                   "offset": 27
                 }
               ],
@@ -3040,7 +3092,7 @@
           },
           {
             "result": {
-              "duration": 405400,
+              "duration": 498800,
               "status": "passed"
             },
             "line": 42,
@@ -3064,11 +3116,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:38.347Z",
+        "start_timestamp": "2019-10-07T15:24:17.326Z",
         "before": [
           {
             "result": {
-              "duration": 620700,
+              "duration": 641300,
               "status": "passed"
             },
             "match": {
@@ -3085,7 +3137,7 @@
         "steps": [
           {
             "result": {
-              "duration": 89360900,
+              "duration": 74498800,
               "status": "passed"
             },
             "line": 45,
@@ -3157,7 +3209,7 @@
           },
           {
             "result": {
-              "duration": 9471200,
+              "duration": 4923300,
               "status": "passed"
             },
             "line": 54,
@@ -3179,7 +3231,7 @@
           },
           {
             "result": {
-              "duration": 513700,
+              "duration": 399500,
               "status": "passed"
             },
             "line": 55,
@@ -3203,11 +3255,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:38.448Z",
+        "start_timestamp": "2019-10-07T15:24:17.408Z",
         "before": [
           {
             "result": {
-              "duration": 963700,
+              "duration": 629100,
               "status": "passed"
             },
             "match": {
@@ -3224,7 +3276,7 @@
         "steps": [
           {
             "result": {
-              "duration": 154998800,
+              "duration": 138470400,
               "status": "passed"
             },
             "line": 58,
@@ -3246,13 +3298,13 @@
               {
                 "cells": [
                   "id",
-                  "10"
+                  "23"
                 ]
               },
               {
                 "cells": [
                   "username",
-                  "jetche2"
+                  "jetche76"
                 ]
               },
               {
@@ -3296,8 +3348,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path message doesn\u0027t match.\nExpected: is \"Email bad format\"\n  Actual: null\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Email bad format\" in body response(file:src/test/java/features/PUT_update_user.feature:67)\r\n",
-              "duration": 9235300,
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path message doesn\u0027t match.\nExpected: is \"Email bad format\"\n  Actual: user should exist\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Email bad format\" in body response(file:src/test/resources/features/PUT_update_user.feature:67)\r\n",
+              "duration": 5517800,
               "status": "failed"
             },
             "line": 67,
@@ -3319,7 +3371,7 @@
           },
           {
             "result": {
-              "duration": 351900,
+              "duration": 161200,
               "status": "skipped"
             },
             "line": 68,
@@ -3343,11 +3395,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-10-06T07:33:38.618Z",
+        "start_timestamp": "2019-10-07T15:24:17.556Z",
         "before": [
           {
             "result": {
-              "duration": 1004900,
+              "duration": 624600,
               "status": "passed"
             },
             "match": {
@@ -3364,7 +3416,7 @@
         "steps": [
           {
             "result": {
-              "duration": 80602100,
+              "duration": 70630200,
               "status": "passed"
             },
             "line": 71,
@@ -3386,13 +3438,13 @@
               {
                 "cells": [
                   "id",
-                  "10"
+                  "23"
                 ]
               },
               {
                 "cells": [
                   "username",
-                  "jetche2"
+                  "jetche6"
                 ]
               },
               {
@@ -3436,8 +3488,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: Expected response body to be verified as JSON, HTML or XML but no content-type was defined in the response.\nTry registering a default parser using:\n   RestAssured.defaultParser(\u003cparser type\u003e);\nContent was:\n\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.assertion.StreamVerifier.newAssertion(StreamVerifier.groovy:43)\r\n\tat io.restassured.assertion.StreamVerifier$newAssertion.call(Unknown Source)\r\n\tat io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:85)\r\n\tat io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)\r\n\tat io.restassured.assertion.BodyMatcherGroup$_validate_closure2.doCall(BodyMatcherGroup.groovy:47)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor160.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)\r\n\tat groovy.lang.Closure.call(Closure.java:405)\r\n\tat groovy.lang.Closure.call(Closure.java:421)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3574)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3559)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3659)\r\n\tat org.codehaus.groovy.runtime.dgm$87.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:244)\r\n\tat org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)\r\n\tat io.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)\r\n\tat io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:480)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Date bad format\" in body response(file:src/test/java/features/PUT_update_user.feature:80)\r\n",
-              "duration": 4479300,
+              "error_message": "java.lang.IllegalStateException: Expected response body to be verified as JSON, HTML or XML but no content-type was defined in the response.\nTry registering a default parser using:\n   RestAssured.defaultParser(\u003cparser type\u003e);\nContent was:\n\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)\r\n\tat io.restassured.assertion.StreamVerifier.newAssertion(StreamVerifier.groovy:43)\r\n\tat io.restassured.assertion.StreamVerifier$newAssertion.call(Unknown Source)\r\n\tat io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:85)\r\n\tat io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)\r\n\tat io.restassured.assertion.BodyMatcherGroup$_validate_closure2.doCall(BodyMatcherGroup.groovy:47)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor160.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)\r\n\tat groovy.lang.Closure.call(Closure.java:405)\r\n\tat groovy.lang.Closure.call(Closure.java:421)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3574)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3559)\r\n\tat org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3659)\r\n\tat org.codehaus.groovy.runtime.dgm$87.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:244)\r\n\tat org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)\r\n\tat io.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)\r\n\tat io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:480)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)\r\n\tat io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)\r\n\tat io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)\r\n\tat steps.UserAPI_steps.iShouldSeeTheInBodyResponse(UserAPI_steps.java:34)\r\n\tat ✽.I should see the \"message\" \"Date bad format\" in body response(file:src/test/resources/features/PUT_update_user.feature:80)\r\n",
+              "duration": 3468400,
               "status": "failed"
             },
             "line": 80,
@@ -3459,7 +3511,7 @@
           },
           {
             "result": {
-              "duration": 275800,
+              "duration": 171000,
               "status": "skipped"
             },
             "line": 81,
@@ -3487,7 +3539,7 @@
     "description": "",
     "id": "verify-update-user-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/PUT_update_user.feature",
+    "uri": "file:src/test/resources/features/PUT_update_user.feature",
     "tags": [
       {
         "name": "@FunctionalTest",

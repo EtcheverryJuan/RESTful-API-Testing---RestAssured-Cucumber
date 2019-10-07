@@ -19,7 +19,7 @@ Feature: Verify Delete user functionality
       |dateOfBirth|1986-07-10           |
       |email      |jetche4@wearewaes.com|
       |superpower |Super Sayan          |
-    And I should receive a successful response and a confirmation message
+    And I should receive a successful response and a confirmation message  for "jetche4" deleted
     Then I perform GET operation to get access with username "jetche4" and password "tester"
     And status code should be 401
 
@@ -93,7 +93,7 @@ Feature: Verify Delete user functionality
       |password   |tester              |
       |superpower |Super Sayan         |
     And I perform DELETE operation with username "tester" and password "maniac" with body "jetche4" and "jetche4@wearewaes.com"
-    Then I should receive a successful response and a confirmation message
+    Then I should receive a successful response and a confirmation message  for "jetche4" deleted
 
   Scenario: DELETE method with invalid optional fields
     Given I perform POST with the following data
@@ -112,5 +112,5 @@ Feature: Verify Delete user functionality
       |dateOfBirth|1982-03-11           |
       |email      |jetche4@wearewaes.com|
       |superpower |Other Superpower     |
-    Then I should receive a successful response and a confirmation message
+    Then I should receive a successful response and a confirmation message  for "jetche4" deleted
 

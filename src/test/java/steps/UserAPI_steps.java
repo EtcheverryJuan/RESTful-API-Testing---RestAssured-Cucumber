@@ -103,16 +103,6 @@ public class UserAPI_steps {
         response = RestAssuredExtension.DeleteWithBodyAndBasicAuth("",auth,user);
     }
 
-    @Then("I should receive a successful response and a confirmation message")
-    public void iShouldReceiveASuccessfulResponseAndAConfirmationMessage() {
-        response.then().contentType(ContentType.TEXT)
-                .statusCode(200)
-                .body(containsString("User 'jetche4' removed from database."));
-
-        System.out.print("Response Body: ");
-        response.body().print();
-    }
-
     @Given("I perform GET operation on {string} with no auth data")
     public void iPerformGETOperationOnWithNoAuthData(String url) throws URISyntaxException {
         response = RestAssuredExtension.GetWithoutBasicAuth(url);
@@ -208,5 +198,15 @@ public class UserAPI_steps {
         body.put("username", bodyUsername);
         body.put("email", bodyEmail);
         response = RestAssuredExtension.DeleteWithBodyAndBasicAuth("",auth,body);
+    }
+
+    @And("I should receive a successful response and a confirmation message  for {string} deleted")
+    public void iShouldReceiveASuccessfulResponseAndAConfirmationMessageForDeleted(String username) {
+        response.then().contentType(ContentType.TEXT)
+                .statusCode(200)
+                .body(containsString("User '"+username+"' removed from database."));
+
+        System.out.print("Response Body: ");
+        response.body().print();
     }
 }
