@@ -22,9 +22,8 @@ User class, was made to serialize and deserialize the JSON response with User in
 The test coverage is Positives scenarios and negative scenarios for each method, covering the main flow of the methods, but also border cases and error handling scenarios.
 
 ### Suggestions for improvements
-The general design can be improved by using AAA design pattern (Arrange Act Assert) using Non-BDD Rest Assured coding in tests and RestAssured Extension, as of now, is using a mix between Rest Assured BDD style coding and Non-BDD style.
-a FactoryPattern can be used in steps definition to improve organization and reusability of steps.
-a confg file can be added to add more flexibility regarding Target API host.
+The general design can be improved by using AAA design pattern (Arrange Act Assert) using Non-BDD Rest Assured coding in tests and RestAssured Extension, as of now, is using a mix between Rest Assured BDD style coding and Non-BDD style. A FactoryPattern can be used in steps definition to improve organization and reusability of steps.
+A config file can be added to add more flexibility regarding Target API host.
 
 ### Requirement:
 - Java 10
