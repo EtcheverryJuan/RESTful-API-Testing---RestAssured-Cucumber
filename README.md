@@ -15,10 +15,21 @@ Here you will find an example of WAES API Test using RestAssured Java library, C
     4. POST user
     5. PUT user to update fields
     6. DELETE user
+### Efficency & Test coverage
+The project structure was made with a Behavior Driven Development approach, prioritizing documentation understanding, achieved with Cucumber tool. The features are separated by API methods for better legibility, and the steps definitions are organized by business feature as a whole, in this stage API User Functionality, in order to promote steps reusabillity and have all organized in one place, if in the future other features are going to be added to the API, new steps definitions files will be created.
+RestAssuredExtension class was think as a helper, in order to avoid incompatibillity and overlaping between BDD Rest Assued and BDD Cucumber. Also, provides flexibility regarding the server that the test project is running against, by defining the URI, and basepath. 
+User class, was made to serialize and deserialize the JSON response with User information data.
+The test coverage is Positives scenarios and negative scenarios for each method, covering the main flow of the methods, but also border cases and error handling scenarios.
+
+### Suggestions for improvements
+The general design can be improved by using AAA design pattern (Arrange Act Assert) using Non-BDD Rest Assured coding in tests and RestAssured Extension, as of now, is using a mix between Rest Assured BDD style coding and Non-BDD style.
+a FactoryPattern can be used in steps definition to improve organization and reusability of steps.
+a confg file can be added to add more flexibility regarding Target API host.
 
 ### Requirement:
 - Java 10
 - Maven
+- Java IDE, intellij or eclipse.
 
 ### Main Usages
 - Rest Assured - for write RESTful APIs tests( http://rest-assured.io/)
